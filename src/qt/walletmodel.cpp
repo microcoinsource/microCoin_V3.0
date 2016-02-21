@@ -194,7 +194,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(const QList<SendCoinsRecipie
             sNarr = rcp.reference.toStdString();
             if (sNarr.length() > 0)
             {
-               if (sNarr.length() > 24)
+               if (sNarr.length() > 50)
                {
                    printf("Reference is too long.\n");
                    return ReferenceTooLong;

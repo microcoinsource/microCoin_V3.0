@@ -155,7 +155,7 @@
      <item>
       <widget class="QValidatedLineEdit" name="lineEditReference">
        <property name="toolTip">
-        <string>Enter optional reference with payment (max 24 characters)</string>
+        <string>Enter optional reference with payment (max 50 characters)</string>
        </property>
       </widget>
      </item>

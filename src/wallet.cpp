@@ -1944,8 +1944,8 @@ string CWallet::SendMoneyToDestination(const CTxDestination& address, int64_t nV
         return _("Invalid amount");
     if (nValue + nTransactionFee > GetBalance())
         return _("Insufficient funds");
-    if (sNarr.length() > 24)
-           throw runtime_error("Reference must be 24 characters or less.");
+    if (sNarr.length() > 50)
+           throw runtime_error("Reference must be 50 characters or less.");
     // Parse Bitcoin address
     CScript scriptPubKey;
     scriptPubKey.SetDestination(address);

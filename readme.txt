@@ -1,3 +1,6 @@
+2016-02 microCoin 3.1.0.0 continue microCoin development
+- Transaction Reference expanded from 24 to 50 char
+
 2015-05 New microCoin 3.0.0.0 continue microCoin development
 - Transaction Reference field added
 

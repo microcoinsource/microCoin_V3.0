@@ -24,13 +24,13 @@ SendCoinsEntry::SendCoinsEntry(QWidget *parent) :
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
     ui->payTo->setPlaceholderText(tr("Enter a microCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)"));
-    ui->lineEditReference->setPlaceholderText(tr("Enter optional reference with payment (max 24 characters)"));
+    ui->lineEditReference->setPlaceholderText(tr("Enter optional reference with payment (max 50 characters)"));
 #endif
     setFocusPolicy(Qt::TabFocus);
     setFocusProxy(ui->payTo);
 
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    ui->lineEditReference->setMaxLength(24);
+    ui->lineEditReference->setMaxLength(50);
 }
 
 SendCoinsEntry::~SendCoinsEntry()
