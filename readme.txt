@@ -4,6 +4,16 @@
 2015-05 New microCoin 3.0.0.0 continue microCoin development
 - Transaction Reference field added
 
+
+windows wallet: 
+Installer: http://microcoin.info/mrc/microCoin3.0_win_qt-wallet.zip
+zip package: http://microcoin.info/mrc/microCoin3.0_win_qt-wallet.zip
+
+For faster start, you can load and install microCoin database:
+Installer: http://microcoin.info/mrc/micro_blockchain.exe
+zip package: http://microcoin.info/mrc/micro_blockchain.zip
+
+LINUX anad MAC wallet can compile from source-code.
 Instruction how to install microcoin on the linux: Ubuntu
 Type these to update the system, and install required tools.
 sudo apt-get update
