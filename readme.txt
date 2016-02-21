@@ -10,8 +10,21 @@ Installer: http://microcoin.info/mrc/microCoin3.0_win_installer.exe
 zip package: http://microcoin.info/mrc/microCoin3.0_win_qt-wallet.zip
 
 For faster start, you can load and install microCoin database:
-Installer: http://microcoin.info/mrc/micro_blockchain.exe
-zip package: http://microcoin.info/mrc/micro_blockchain.zip
+- Installer: http://microcoin.info/mrc/micro_blockchain.exe (Easiest)
+- zip package: http://microcoin.info/mrc/micro_blockchain.zip
+- Bootstrap.dat: http://microcoin.info/mrc/mrc_blockchain_bootstrap_2016_02_20.zip
+Start installer, exctact database files, or bootstrap.dat in microCoin roaming folder.
+
+Tips: If you have no space in your C: drive, you can change database folder path typing path in your microCoin.conf file.
+Example microCoin.conf file in user roaming\microCoin\ folder and database placed in D:\microCoin\ folder:
+datadir=D:\microCoin\
+rpcport=15256
+rpcuser=user
+rpcpassword=x
+rpcallowip=127.0.0.1
+server=0
+addnode=178.62.154.31:15256
+addnode=95.85.33.193:15256
 
 LINUX anad MAC wallet can compile from source-code.
 Instruction how to install microcoin on the linux: Ubuntu
