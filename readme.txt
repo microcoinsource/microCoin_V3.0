@@ -6,7 +6,7 @@
 
 
 windows wallet: 
-Installer: http://microcoin.info/mrc/microCoin3.0_win_qt-wallet.zip
+Installer: http://microcoin.info/mrc/microCoin3.0_win_installer.exe
 zip package: http://microcoin.info/mrc/microCoin3.0_win_qt-wallet.zip
 
 For faster start, you can load and install microCoin database:
